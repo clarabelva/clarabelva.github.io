@@ -1,7 +1,8 @@
 header{
+    color:maroon;
     text-align: center;
     background-color:pink;
-    padding: 25px;
+    padding: 10px;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 0px 15px black;
     position:fixed;
@@ -9,7 +10,7 @@ header{
 }
 nav a{
     padding: 5px 15px;
-    color:palevioletred;
+    color:maroon;
     text-decoration: none;
     font-size: 17px;
 }
@@ -20,9 +21,24 @@ nav a:hover{
     box-shadow: 0px 0px 15px black;
     transition: 0.3s;
 }
+.HOME{
+    background-image: url(background.jpg);
+    height: 700px;
+    background-size: cover;
+    padding-top: 25px;
+    h1{
+        color:maroon;
+    }
+    h3{
+        color:maroon;
+    }
+    p{
+        color:white;
+    }
+}
 .descriptionHOME{
     width: 40%;
-    margin-top: 75px;
+    margin-top: 175px;
     margin-left: 75px;
 }
 .descriptionHOME a{
@@ -38,33 +54,52 @@ nav a:hover{
     box-shadow: 0px 0px 15px black;
     transition: 0.3s;
 }
-.HOME{
-    background-image: url(background.jpg);
-    height: 700px;
-    background-size: cover;
-    padding-top: 25px;
-}
 .ABOUT{
-    height: 800px;
-    background-color:pink;
+    height: 700px;
+    background: radial-gradient(circle,rgba(255, 102, 128, 1) 0%, rgba(255, 192, 203, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    color:maroon;
+    text-align: center;
 }
 .containerABOUT{
     background-color:pink;
+    border-radius: 10px 10px 10px 10px;
+    height: 93%;
     width: 50%;
-    margin-left: 25%;
-    text-align: center;
-    height: 100%;
     padding-top: 50px;
+    padding: 25px;
+    margin-left: 23%;
+    p{
+        text-align:justify;
+    }
 }
 .containerABOUT img{
     height: 200px;
 }
-h1{
-    color:maroon;
+.PROFILE{
+    height: 700px;
+    text-align: center;
+    background: radial-gradient(circle,rgba(255, 102, 128, 1) 0%, rgba(255, 192, 203, 1) 100%, rgba(255, 255, 255, 1) 100%);
 }
-h3{
-    color:pink;
+.cardPROFILE{
+    background-color: pink;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
 }
-p{
-    color: white;
+.imgPROFILE img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 25px;
 }
