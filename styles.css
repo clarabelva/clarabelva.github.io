@@ -28,7 +28,6 @@ nav a:hover{
     background-size: cover;
     padding-top: 25px;
     text-align: justify;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     h1{
         color: maroon;
     }
@@ -36,7 +35,7 @@ nav a:hover{
         color: maroon;
     }
     p{
-        color: black;
+        color: white;
     }
 }
 .descriptionHOME{
