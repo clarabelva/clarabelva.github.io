@@ -1,39 +1,40 @@
 header{
-    color:maroon;
+    color: maroon;
     text-align: center;
-    background-color:pink;
+    background-color: pink;
     padding: 10px;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 0px 15px black;
-    position:fixed;
+    position: fixed;
     width: 100%;
 }
 nav a{
     padding: 5px 15px;
-    color:maroon;
+    color: maroon;
     text-decoration: none;
     font-size: 17px;
 }
 nav a:hover{
-    color:white;
-    background-color:maroon;
+    color: white;
+    background-color: maroon;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 0px 15px black;
     transition: 0.3s;
 }
 .HOME{
     background-image: url(background.jpg);
-    height: 700px;
+    height: 615px;
     background-size: cover;
     padding-top: 25px;
+    text-align: justify;
     h1{
-        color:maroon;
+        color: maroon;
     }
     h3{
-        color:maroon;
+        color: maroon;
     }
     p{
-        color:white;
+        color: white;
     }
 }
 .descriptionHOME{
@@ -55,7 +56,7 @@ nav a:hover{
     transition: 0.3s;
 }
 .ABOUT{
-    height: 700px;
+    height: 550px;
     background: radial-gradient(circle,rgba(255, 102, 128, 1) 0%, rgba(255, 192, 203, 1) 100%, rgba(255, 255, 255, 1) 100%);
     color:maroon;
     text-align: center;
@@ -63,7 +64,7 @@ nav a:hover{
 .containerABOUT{
     background-color:pink;
     border-radius: 10px 10px 10px 10px;
-    height: 93%;
+    height: 85%;
     width: 50%;
     padding-top: 50px;
     padding: 25px;
@@ -74,9 +75,10 @@ nav a:hover{
 }
 .containerABOUT img{
     height: 200px;
+    border-radius: 5px 5px 5px 5px;
 }
 .PROFILE{
-    height: 700px;
+    height: 600px;
     text-align: center;
     background: radial-gradient(circle,rgba(255, 102, 128, 1) 0%, rgba(255, 192, 203, 1) 100%, rgba(255, 255, 255, 1) 100%);
 }
@@ -91,15 +93,11 @@ nav a:hover{
     width: 100%;
 }
 .medsos{
-    left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
     height: 40px;
     padding-top: 5px;
 }
 .medsos a{
-    text-decoration: none;
     padding: 10px 10px;
     font-size: 25px;
 }
