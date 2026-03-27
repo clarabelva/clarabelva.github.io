@@ -48,6 +48,7 @@ nav a:hover{
     color:white;
     padding: 8px 10px;
     border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
 }
 .descriptionHOME a:hover{
     color:palevioletred;
