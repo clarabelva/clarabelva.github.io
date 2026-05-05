@@ -1,115 +1,62 @@
-header{
-    color: maroon;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: pink;
-    padding: 10px;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 15px black;
-    position: fixed;
-    width: 100%;
+body{
+    margin: 0;
 }
-nav a{
-    padding: 5px 15px;
-    color: maroon;
-    text-decoration: none;
-    font-size: 17px;
-}
-nav a:hover{
-    color: white;
-    background-color: maroon;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 15px black;
-    transition: 0.3s;
-}
-.HOME{
+.container{
     background-image: url(background.jpg);
-    height: 615px;
     background-size: cover;
-    padding-top: 25px;
-    text-align: justify;
-    h1{
-        color: maroon;
-    }
-    h3{
-        color: maroon;
-    }
-    p{
-        color: white;
-    }
-}
-.descriptionHOME{
-    width: 40%;
-    margin-top: 175px;
-    margin-left: 50px;
-}
-.descriptionHOME a{
-    background-color:maroon;
-    color:white;
-    padding: 8px 10px;
-    border-radius: 15px 15px 15px 15px;
-    text-decoration: none;
-}
-.descriptionHOME a:hover{
-    color:palevioletred;
-    background-color:pink;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 15px black;
-    transition: 0.3s;
-}
-.ABOUT{
-    height: 600px;
-    background: radial-gradient(circle,rgba(255, 102, 128, 1) 0%, rgba(255, 192, 203, 1) 100%, rgba(255, 255, 255, 1) 100%);
-    color:maroon;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.containerABOUT{
-    background-color:pink;
-    border-radius: 10px 10px 10px 10px;
-    height: 85%;
-    width: 50%;
-    padding-top: 50px;
-    padding: 25px;
-    margin-left: 23%;
-    p{
-        text-align:justify;
-    }
-}
-.containerABOUT:hover{
-    box-shadow: 0px 0px 15px black;
-    transition: 0.3s;
-}
-.containerABOUT img{
-    height: 200px;
-    border-radius: 5px 5px 5px 5px;
-}
-.PROFILE{
-    height: 600px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: radial-gradient(circle,rgba(255, 102, 128, 1) 0%, rgba(255, 192, 203, 1) 100%, rgba(255, 255, 255, 1) 100%);
-}
-.cardPROFILE{
-    background-color: pink;
-    padding: 15px;
-    width: 300px;
-    margin: auto;
-    text-align: center;
-}
-.cardPROFILE:hover{
-    box-shadow: 0px 0px 15px black;
-    transition: 0.3s;
-}
-.imgPROFILE img{
+    height: 636px;
     width: 100%;
 }
-.medsos{
-    text-align: center;
-    height: 40px;
-    padding-top: 5px;
+.container div{
+    position: absolute;
+    font-size: 35px;
+    color: white;
 }
-.medsos a{
-    padding: 10px 10px;
-    font-size: 25px;
+.container div:nth-child(1){
+    left: 5%;
+    animation: animasi 7s infinite linear;
+}
+.container div:nth-child(2){
+    left: 10%;
+    animation: animasi 5s infinite linear;
+}
+.container div:nth-child(3){
+    left: 20%;
+    animation: animasi 3s infinite linear;
+}
+.container div:nth-child(4){
+    left: 30%;
+    animation: animasi 4s infinite linear;
+}
+.container div:nth-child(5){
+    left: 40%;
+    animation: animasi 6s infinite linear;
+}
+.container div:nth-child(6){
+    left: 50%;
+    animation: animasi 7s infinite linear;
+}
+.container div:nth-child(7){
+    left: 60%;
+    animation: animasi 5s infinite linear;
+}
+.container div:nth-child(8){
+    left: 70%;
+    animation: animasi 3s infinite linear;
+}
+.container div:nth-child(9){
+    left: 80%;
+    animation: animasi 4s infinite linear;
+}
+.container div:nth-child(10){
+    left: 90%;
+    animation: animasi 6s infinite linear;
+}
+@keyframes animasi{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(575px);
+    }
 }
